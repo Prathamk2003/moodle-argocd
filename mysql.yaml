@@ -31,7 +31,7 @@ spec:
             - containerPort: 3306
           env:
             - name: MYSQL_ROOT_PASSWORD
-             value: rootpass
+              value: rootpass
             - name: MYSQL_DATABASE
               value: moodle
             - name: MYSQL_USER
